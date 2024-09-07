@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Ecos do Apocalipse</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="base-passo0.jpg" alt="base militar">
+            <p>Um dia, enquanto vasculhava os escombros de uma antiga instalação militar, você encontra um documento secreto. Ele revela a localização de uma base de pesquisa abandonada onde o vírus foi desenvolvido. Agora, sua única chance de sobreviver é seguir as pistas.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar as ruínas da cidade</button>
+            <button class="btn-proximo" data-proximo="2">Seguir diretamente para a base de pesquisa</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <img src="suprimento-passo1.jpg" alt="suplementos">
+            <p>Nas ruínas da cidade, você encontra suprimentos, mas também sinais de que não está sozinho. Criaturas deformadas espreitam nas sombras.</p>
+            <button class="btn-proximo" data-proximo="3">Lutar contra as criaturas</button>
+            <button class="btn-proximo" data-proximo="4">Fugir e se esconder</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <img src="zumbi-passo2.jpg" alt="">
+            <p>Você decide seguir diretamente para a base de pesquisa, situada no coração de uma floresta contaminada. Ao passar da floresta, descobre que o lugar está infestado de mutantes.</p>
+            <button class="btn-proximo" data-proximo="5">Entrar pela entrada principal</button>
+            <button class="btn-proximo" data-proximo="6">Buscar uma entrada secreta</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <img src="caminho-passo3.jpg" alt="">
+            <p>Depois de lutar contra as criaturas, você encontra uma pista crucial: a localização de um antídoto experimental. Ele está escondido dentro da base de pesquisa, mas o caminho até lá é perigoso e repleto de armadilhas.</p>
+            <button class="btn-proximo" data-proximo="2">Seguir para a base de pesquisa</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <img src="hostis-passo4.jpg" alt="">
+            <p>Ao tentar fugir e se esconder, você se depara com um grupo de sobreviventes hostis que tentam roubar seus suprimentos.</p>
+            <button class="btn-proximo" data-proximo="7">Enfrentá-los</button>
+            <button class="btn-proximo" data-proximo="8">Negociar uma aliança</button>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <img src="mutantes-passo5.jpg" alt="">
+            <p>Ao entrar pela entrada principal, você ativa um alarme, alertando mutantes próximos. Agora, precisa lutar para sobreviver.</p>
+            <button class="btn-proximo" data-proximo="9">Lutar contra os mutantes</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="codigo-passo6.jpg" alt="">
+            <p>Você encontra uma entrada secreta que leva direto ao laboratório, mas ele está trancado e precisa de um código.</p>
+            <button class="btn-proximo" data-proximo="9">Tentar hackear o sistema</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="batalha-passo7.jpg" alt="">
+            <p>Você decide enfrentar o grupo hostil e, após uma batalha intensa, consegue derrotá-los e pegar os suprimentos.</p>
+            <button class="btn-proximo" data-proximo="10">Você encontra antídoto e decide usar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="negociar-passo8.jpg" alt="">
+            <p>Você decide negociar uma aliança. Eles concordam em se juntar a você na busca pelo antídoto, mas em troca, você compartilha seus recursos.</p>
+            <button class="btn-proximo" data-proximo="9">Continuar explorando</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="sobreviventes-passo9.jpg" alt="">
+            <p>Dentro da base de pesquisa, você finalmente encontra o antídoto, mas precisa decidir: salvá-lo para você ou compartilhar com os poucos sobreviventes que restam.</p>
+            <button class="btn-proximo" data-proximo="10">Salvar o antídoto para si</button>
+            <button class="btn-proximo" data-proximo="11">Compartilhar com os sobreviventes</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="solidão-passo10.jpg" alt="">
+            <p>Você decide salvar o antídoto apenas para você, mas logo descobre que a solidão e a culpa são um preço alto a pagar pela sobrevivência.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="mundosalvo-passo11.jpg" alt="">
+            <p>Você compartilha o antídoto com os sobreviventes, dando esperança para reconstruir o que restou do mundo.</p>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
